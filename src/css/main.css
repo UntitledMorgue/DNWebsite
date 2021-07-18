@@ -1,1 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@font-face {
+  font-family: 'uni';
+  src: url('../fonts/uni.woff') format('woff');
+}
+body {
+  overflow-x: hidden;
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  /* background-color:#242425; */
 
+}
+.fas {
+  position: relative;
+  bottom: 55px;
+  left: 6px;
+}
+.navbar {
+  position: relative;
+  bottom: 50px;
+}
+.nvbritms {
+  list-style-type: none;
+  display: inline;
+  display: inline-flex;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  position: relative;
+  bottom: 171px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+.carddis {
+  position: relative;
+  top: -68px;
+  right: 60px;
+  color: gray;
+  font-size: 17px;
+}
+.cardinfo {
+  position: relative;
+  bottom: 70px;
+  left: 70px;
+}
+.navbar2 {
+  position: relative;
+  top: 70px;
+}
+.logo22 {
+  position: relative;
+  bottom: 111px;
+  width: 129px;
+  right: 20px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+.logo22:hover {
+  cursor: pointer;
+}
+.cardicon {
+  width: 40px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 53px;
+  left: 30px;
+}
+#cardowner {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+.cards {
+  display: inline-flex;
+}
+
+.spacer {
+  width: 350px;
+}
+#cardowner:hover {
+  cursor: pointer;
+  text-decoration: underline solid Currentcolor;
+}
+.cardtitle {
+  position: relative;
+  left: 55px;
+  top: 12px;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+  margin-right: 0 0 0;
+  width: 245px;
+}
+.cardtitle:hover {
+  text-decoration: underline solid Currentcolor;
+  cursor: pointer;
+}
+.card {
+  width: 307px;
+  filter: drop-shadow(0 0 0.65rem black);
+  height: 140px;
+  border-radius: 20px;
+  background-color: rgb(44, 44, 44);
+  position: relative;
+  bottom: 90px;
+  font-family: roboto;
+  border: 3px rgb(41, 40, 40) solid;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 860px;
+  position: relative;
+  bottom: 190px;
+}
+.credss {
+  padding: 0 19px;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+.credss:hover {
+  cursor: pointer;
+  text-decoration: underline solid Currentcolor;
+}
+.hm:hover {
+  cursor: pointer;
+  text-decoration: underline solid Currentcolor;
+}
+
+.hm {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+
+#Darkk {
+  color: black;
+}
+
+.logo2 {
+  width: 129px;
+  position: relative;
+  bottom: 230px;
+  right: 20px;
+  filter: drop-shadow(0 0 0.2rem black);
+}
+.muted {
+  color: rgb(75, 75, 75);
+  font-size: 20px;
+  text-align: center;
+  font-family: roboto;
+  position: relative;
+  text-shadow: 2px 2px 5px rgb(39, 39, 39);
+  bottom: 190px;
+}
+
+.logo2:hover {
+  cursor: pointer;
+}
+.navbarbg {
+  background-color: #222222;
+  height: 90px;
+  position: relative;
+  bottom: 90px;
+  width: 1999px;
+  right: 10px;
+}
+
+.dnt {
+  font-family: uni;
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+}
+.btn-outline-dark {
+  color: #343a40;
+  background-color: transparent;
+  background-image: none;
+  border-color: #343a40;
+}
+
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-outline-dark:focus,
+.btn-outline-dark.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled {
+  color: #343a40;
+  background-color: transparent;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.show > .btn-outline-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus,
+.btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
