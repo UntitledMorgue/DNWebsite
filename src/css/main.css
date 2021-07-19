@@ -124,6 +124,9 @@ body {
 .discordinv {
   cursor:pointer;
 }
+.discordinv:hover {
+  text-decoration: underline solid Currentcolor;
+}
 .hm:hover {
   cursor: pointer;
   text-decoration: underline solid Currentcolor;
