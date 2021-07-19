@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  /* background-color:#242425; */
+  background-color:#242425;
 
 }
 .fas {
@@ -158,6 +158,7 @@ body {
 .navbarbg {
   background-color: #222222;
   height: 90px;
+  opacity:0.9;
   position: relative;
   bottom: 90px;
   width: 1999px;
