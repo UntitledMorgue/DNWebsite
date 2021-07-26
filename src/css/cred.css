@@ -1,0 +1,117 @@
+.nyrisoc {
+    position:relative;
+    letter-spacing: 20px;
+    top:270px;
+    left:96px;
+    margin:0px;
+   
+  }
+  .cardtitle {
+    position: relative;
+    left: 55px;
+    top: 12px;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 1s ease;
+    margin-right: 0 0 0;
+    width: 245px;
+  }
+  
+  .center2 {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cardtitle:hover {
+    text-decoration: underline solid Currentcolor;
+    cursor: pointer;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #cardlink {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 1s ease;
+    cursor:pointer;
+  }
+  .carddis {
+    position: relative;
+    top: -68px;
+    right: 60px;
+    color: gray;
+    font-size: 17px;
+  }
+  .stuffyes {
+    position: relative;
+    bottom:194px;
+  }
+  .cardinfo {
+    position: relative;
+    bottom: 70px;
+    left: 70px;
+  }
+  .allcrds {
+    display:inline-table;
+    position:relative;
+    bottom:-30px;
+    right:160px;
+  }
+  .card {
+    width:269px;
+    background-color: rgb(44, 44, 44);
+    height:330px;
+    border-radius:30px;
+    font-family:roboto;
+    filter: drop-shadow(0 0 0.75rem black);
+    position:relative;
+    left:20px;
+    bottom:90px;
+    margin: 27px;
+  }
+  .cname {
+    color:white;
+    filter: drop-shadow(0 0 0.75rem black);
+    opacity:100%;
+    font-family:roboto;
+    text-align:center;
+    position:relative;
+    top:180px;
+  }
+  .fab {
+    color:white;
+    cursor:pointer;
+    transition: color 1s ease;
+  }
+  .fab:hover {
+    color:gray;
+  }
+  #cardlink:hover {
+    text-decoration: underline solid currentColor;
+  }
+  .socials {
+    position:relative;
+    text-align:center;
+    top:230px;
+    display:inline-flex;
+    letter-spacing: 20px;
+    left:72px;
+    top:270px;
+  }
+  .desctx {
+    color:rgb(196, 192, 192);
+    filter: drop-shadow(0 0 0.75rem black);
+    text-align:center;
+    font-family:roboto;
+    position:relative;
+    top:305px;
+  }
+  .pfpy {
+    filter: drop-shadow(0 0 0.75rem black);
+    width:100px;
+    height:100px;
+    position:relative;
+    border-radius:50px;
+  }
