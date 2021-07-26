@@ -5,6 +5,7 @@
   src: url('../fonts/uni.woff') format('woff');
 }
 body {
+  user-select:none;
   overflow-x: hidden;
   background-image: url('../img/bg.png');
   background-repeat: no-repeat;
@@ -40,16 +41,6 @@ body {
 .navbar2 {
   position: relative;
   top: 70px;
-}
-.logo22 {
-  position: relative;
-  bottom: 111px;
-  width: 129px;
-  right: 20px;
-  filter: drop-shadow(0 0 0.2rem rgb(209, 209, 209));
-}
-.logo22:hover {
-  cursor: pointer;
 }
 .credss {
   padding: 0 19px;

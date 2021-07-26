@@ -4,7 +4,22 @@
     top:270px;
     left:96px;
     margin:0px;
-   
+    order:0;
+  }
+  .nyrisoc > * {
+    width: 20px;
+    display: inline-block;
+    height: 65px;
+  }
+  .logo22 {
+    position: relative;
+    bottom: 111px;
+    width: 129px;
+    right: 20px;
+    filter: drop-shadow(0 0 0.2rem rgb(209, 209, 209));
+  }
+  .logo22:hover {
+    cursor: pointer;
   }
   .cardtitle {
     position: relative;
@@ -15,7 +30,14 @@
     margin-right: 0 0 0;
     width: 245px;
   }
-  
+  .nyride {
+    color:rgb(196, 192, 192);
+    filter: drop-shadow(0 0 0.75rem black);
+    text-align:center;
+    font-family:roboto;
+    position:relative;
+    top:285px;
+  }
   .center2 {
     position: absolute;
     top: 70px;
@@ -47,6 +69,7 @@
   .stuffyes {
     position: relative;
     bottom:194px;
+    height:20px;
   }
   .cardinfo {
     position: relative;
@@ -114,4 +137,5 @@
     height:100px;
     position:relative;
     border-radius:50px;
+    user-select:none;
   }
