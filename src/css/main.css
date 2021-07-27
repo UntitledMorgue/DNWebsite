@@ -66,7 +66,33 @@ body {
   text-decoration: underline solid transparent;
   transition: text-decoration 1s ease;
 }
+.txt404 {
+  font-family:roboto;
+  color:#cb0202;
+  font-size:150px;
+  text-align:center;
+  position:relative;
+  bottom:90px;
+  filter: drop-shadow(0 0 0.2rem #eb0303);
+}
+.txt4042 {
+  font-family:roboto;
+  color:#f30404;
+  filter: drop-shadow(0 0 0.2rem #eb0303);
+  text-align:center;
+  font-size:40px;
+  position:relative;
+  bottom:201px;
+}
 
+.logo22 {
+  position: relative;
+  bottom:20px;
+  width: 129px;
+  right: 20px;
+  filter: drop-shadow(0 0 0.2rem rgb(255, 0, 0));
+  cursor: pointer;
+}
 #Darkk {
   color: black;
 }

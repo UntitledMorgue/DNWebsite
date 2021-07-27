@@ -17,8 +17,6 @@
     width: 129px;
     right: 20px;
     filter: drop-shadow(0 0 0.2rem rgb(209, 209, 209));
-  }
-  .logo22:hover {
     cursor: pointer;
   }
   .cardtitle {
