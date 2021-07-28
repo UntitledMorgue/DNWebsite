@@ -142,4 +142,37 @@ body {
   position: relative;
   bottom: 190px;
 }
+#Simplee {
+  color:white;
+}
+@media (max-width: 480px) {
+  .dnt {
+    font-size:40px;
+    position:relative;
+    bottom:-29px;
+  }
+  .banner {
+    position:relative;
+    bottom:304px;
+    width:310px;
+    right:3px;
+  }
+  .muteddnis {
+    position:relative;
+    bottom:100px;
+  }
+  .nvbritms {
+    position:relative;
+    bottom:155px;
+    right:13px;
+  }
+  body {
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
+  .logo2 {
+    position:relative;
+    top:9999px;
+  }
+}
 /* hi */
