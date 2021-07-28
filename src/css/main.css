@@ -6,13 +6,11 @@
 }
 body {
   user-select:none;
-  overflow-x: hidden;
   background-image: url('../img/bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
   background-color:#242425;
-  overflow-y:hidden;
 }
 #DiscordDNR {
   color:#7289DA;
@@ -154,6 +152,11 @@ body {
     font-size:40px;
     position:relative;
     bottom:-29px;
+  }
+  html, body {
+    overflow-y:scroll;
+    overflow-x:hidden;
+    scroll-snap-type: y proximity;
   }
   .card {
     position:relative;

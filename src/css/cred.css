@@ -142,10 +142,15 @@
   @media (max-width: 480px) {
     .nvbritms {
       position:relative;
-      bottom:180px;
+      bottom:161px;
     }
-    .navbarbg {
-      height:90px;
+    .card {
+      position:relative;
+      left:150px;
+      bottom:250px;
+    }
+    .nvbg2 {
+      height:70px !important;
     }
   }
 /* tf u doin here lmao */
