@@ -146,10 +146,18 @@ body {
   color:white;
 }
 @media (max-width: 480px) {
+  body {
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
   .dnt {
     font-size:40px;
     position:relative;
     bottom:-29px;
+  }
+  .card {
+    position:relative;
+    left:40px;
   }
   .banner {
     position:relative;
@@ -166,11 +174,11 @@ body {
     bottom:155px;
     right:13px;
   }
-  body {
-    overflow-y:hidden;
-    overflow-x:hidden;
-  }
   .logo2 {
+    position:relative;
+    top:9999px;
+  }
+  .logo22 {
     position:relative;
     top:9999px;
   }

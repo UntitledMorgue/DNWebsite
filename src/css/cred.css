@@ -137,4 +137,15 @@
     border-radius:50px;
     user-select:none;
   }
+
+
+  @media (max-width: 480px) {
+    .nvbritms {
+      position:relative;
+      bottom:180px;
+    }
+    .navbarbg {
+      height:90px;
+    }
+  }
 /* tf u doin here lmao */
