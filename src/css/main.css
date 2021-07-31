@@ -11,6 +11,8 @@ body {
   background-attachment: fixed;  
   background-size: cover;
   background-color:#242425;
+  overflow-y:hidden;
+  overflow-x:hidden;
 }
 #DiscordDNR {
   color:#7289DA;
@@ -156,7 +158,6 @@ body {
   html, body {
     overflow-y:scroll;
     overflow-x:hidden;
-    scroll-snap-type: y proximity;
   }
   .card {
     position:relative;
