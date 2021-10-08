@@ -54,6 +54,8 @@ body {
 
 .discordinv {
   cursor:pointer;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
 }
 .discordinv:hover {
   text-decoration: underline solid Currentcolor;

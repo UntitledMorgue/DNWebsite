@@ -138,6 +138,11 @@
     user-select:none;
   }
 
+  .hekcard {
+    position:relative;
+    bottom:475px;
+    left:810px;
+  }
 
   @media (max-width: 480px) {
     .nvbritms {
